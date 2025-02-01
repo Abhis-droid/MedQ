@@ -1,0 +1,40 @@
+.recent-activities {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .recent-activities h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 5px;
+  }
+  
+  .recent-activities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activities li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .recent-activities li:last-child {
+    border-bottom: none;
+  }
+  
+  .activity-desc {
+    color: #2c3e50;
+  }
+  
+  .activity-time {
+    color: #95a5a6;
+    font-size: 0.9rem;
+  }
+  

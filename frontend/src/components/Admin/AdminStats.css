@@ -1,0 +1,44 @@
+.admin-stats {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .stat-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+  .stat-card p {
+    font-size: 1.5rem;
+    color: #2ecc71;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
+  .chart-container h3 {
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  

@@ -1,0 +1,95 @@
+.manage-patients-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-content {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter-bar input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-filter-bar select {
+    width: 25%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .patients-table th,
+  .patients-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .patients-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .add-patient-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-patient-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .patients-table td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .patients-table td button:first-child {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .patients-table td button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .patients-table td button:last-child {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .patients-table td button:last-child:hover {
+    background-color: #b21f2d;
+  }
+  

@@ -1,0 +1,88 @@
+.manage-doctors {
+    padding: 0px;
+    background-color: #f4f6f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-doctors h3 {
+    color: #34495e;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+  }
+  
+  .doctor-list {
+    margin-bottom: 30px;
+  }
+  
+  .doctor-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .doctor-list th, .doctor-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .doctor-list th {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .doctor-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .doctor-list button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .doctor-list button:hover {
+    background-color: #c0392b;
+  }
+  
+  .add-doctor-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-doctor-form h4 {
+    margin-bottom: 15px;
+  }
+  
+  .add-doctor-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-doctor-form input, .add-doctor-form select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-doctor-form button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-doctor-form button:hover {
+    background-color: #16a085;
+  }
+  

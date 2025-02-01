@@ -1,0 +1,22 @@
+ @import "tailwindcss"; 
+ @layer base {
+    h1 {
+      font-size: var(--text-4xl);
+      font-weight: 800;
+    }
+    h2 {
+      font-size: var(--text-xl);
+      text-align: left;
+    }
+    h3 {
+      font-size: var(--text-lg);
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+  }
