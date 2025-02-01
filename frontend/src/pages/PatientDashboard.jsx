@@ -1,4 +1,4 @@
-import PatientNavbar from "../components/PatientNav";
+import PatientNavbar from "../components/Patient/PatientNav";
 
 
 const PatientDashboard = () => {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import AdNavbar from '../../components/Admin/AdNavbar';
+import Footer from '../../components/Admin/Footer';
 import './ManagePatient.css';
 
 const ManagePatient = () => {
@@ -39,7 +39,7 @@ const ManagePatient = () => {
 
   return (
     <div className="manage-patients-page">
-      <Navbar />
+      <AdNavbar />
       <div className="page-content">
         <h2>Manage Patients</h2>
         {/* Search and Filter */}

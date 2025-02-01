@@ -1,5 +1,5 @@
 import  { useState } from "react";
-import PatientNav from "../components/PatientNav";
+import PatientNav from "../../components/Patient/PatientNav";
 import "./Appointment.css";
 
 const AppointmentBooking = () => {

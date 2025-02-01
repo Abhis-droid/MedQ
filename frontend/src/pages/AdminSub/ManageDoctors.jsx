@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import './ManageDoctors.css';
-import Navbar from '../components/Navbar';
+import AdNavbar from '../../components/Admin/AdNavbar';
 
 const ManageDoctors = () => {
   // State to hold doctors' data
@@ -41,7 +41,7 @@ const ManageDoctors = () => {
   return (
     
     <div className="manage-doctors">
-        <Navbar />
+        <AdNavbar />
       <h2>Manage Doctors</h2>
       <div className="doctor-list">
         <h3>Doctors List</h3>

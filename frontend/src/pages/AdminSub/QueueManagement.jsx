@@ -1,6 +1,6 @@
 import  { useState } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import AdNavbar from "../../components/Admin/AdNavbar";
+import Footer from "../../components/Admin/Footer";
 import "./QueueManagement.css";
 
 const QueueManagement = () => {
@@ -25,7 +25,7 @@ const QueueManagement = () => {
 
   return (
     <div>
-      <Navbar />
+      <AdNavbar />
       <div className="queue-management-container">
         {/* Queue Statistics */}
         <div className="queue-statistics">

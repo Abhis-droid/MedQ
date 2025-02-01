@@ -1,15 +1,15 @@
-import Navbar from '../components/Navbar';
-import AdminStats from '../components/AdminStats';
-import RecentActivities from '../components/RecentActivity';
-import QuickActions from '../components/QuickActions';
-import AdminSidebar from '../components/AdminSidebar';
+import AdNavbar from '../components/Admin/AdNavbar';
+import AdminStats from '../components/Admin/AdminStats';
+import RecentActivities from '../components/Admin/RecentActivity';
+import QuickActions from '../components/Admin/QuickActions';
+import AdminSidebar from '../components/Admin/AdminSidebar';
 //import './AdminDashboard.css';
 
 const AdminDashboard = () => {
   return (
     <div className="admin-dashboard flex flex-col  ">
       {/* Navbar */}
-      <Navbar />
+      <AdNavbar />
       <div className='flex flex-row gap-50'>
       <AdminSidebar />
 
