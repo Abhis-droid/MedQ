@@ -12,7 +12,7 @@ const AdminSidebar = () => {
         {isOpen ? "☰ Close" : "☰ Open"}
       </button>
       <nav className="space-y-4">
-        <NavItem to="/admin/dashboard" icon={<Home size={24} />} label="Dashboard" isOpen={isOpen} />
+        <NavItem to="/adminDashboard" icon={<Home size={24} />} label="Dashboard" isOpen={isOpen} />
         <NavItem to="/admin/doctors" icon={<User size={24} />} label="Doctors" isOpen={isOpen} />
         <NavItem to="/admin/patients" icon={<Users size={24} />} label="Patients" isOpen={isOpen} />
         <NavItem to="/admin/appointments" icon={<Calendar size={24} />} label="Appointments" isOpen={isOpen} />

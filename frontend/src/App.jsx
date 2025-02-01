@@ -11,7 +11,10 @@ import QueueManagement from "./pages/AdminSub/QueueManagement";
 import ManagePatient from "./pages/AdminSub/ManagePatient";
 import LogoutPage from './pages/LogoutPage';
 import ProfilePage from "./pages/ProfilePage"; 
-import AppointmentBooking from "./pages/Patientsub/AppointmentBooking";
+import PatientAppointmentBookingPage from "./pages/Patientsub/PatientAppointmentsPage";
+import AdminAppo from "./pages/AdminSub/AdminAppo";
+import QueueStatusPage from "./pages/Patientsub/QueueStatusPage";
+import PrescriptionsPage from "./pages/Patientsub/PrescriptionsPage";
 
 const App = () => {
 
@@ -30,7 +33,10 @@ const App = () => {
       <Route path="/Queue-manage" element={<QueueManagement />}/>
       <Route path="/manage-patients" element={<ManagePatient />}/>
       <Route path="/profile" element={<ProfilePage />} />
-      <Route path="/Appointment-Book" element={<AppointmentBooking />}/>
+      <Route path= "/admin/appointments" element={<AdminAppo />}/>
+      <Route path="/Appointment-Book" element={<PatientAppointmentBookingPage />}/>
+      <Route path="/patient/queue" element={<QueueStatusPage />}/>
+      <Route path= "/patient/prescriptions" element={<PrescriptionsPage />}/>
     </Routes>
   </Router>
    
